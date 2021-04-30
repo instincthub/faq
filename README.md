@@ -27,5 +27,7 @@
 
 ### Credit: 
 UI Design By [Bubu Dragos](https://dribbble.com/shots/14910012-Daily-UI-FAQ)
+HTML Entity By [Toptal](https://www.toptal.com/designers/htmlarrows/)
+Dummy Text By [Lorem Ipsum](https://www.lipsum.com)
 
 
