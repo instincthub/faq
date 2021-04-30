@@ -6,9 +6,7 @@
 main{
     max-width: 800px;
     margin: 5vh auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-radius: 37px;
+    padding: 20px;
 }
 
 h1{
@@ -22,7 +20,6 @@ h2{
     font-size: 1.1em;
     font-weight: 400;
     color: #5e5d5d;
-    line-height: 1.5em;
 }
 
 .faq{
@@ -33,18 +30,14 @@ h2{
     position: relative;
     line-height: 1.5em;
     margin-top: 15px;
-
 }
 
 .faq .faq_text{
     width: 90%;
 }
 
-.faq .btn{
-    color: #5e5d5d;
-}
-
 .btn{
+    color: #5e5d5d;
     position: absolute;
     right: 25px;
     top: 35px;
@@ -52,23 +45,23 @@ h2{
     font-size: 1.4em;
 }
 
-/* Hide p tag */
-.faq.open h2,
-.faq.open .btn{
+/* Hide p tags */
+.faq.open h2{
     color: #00848f;
 }
 
 .faq p{
     display: none;
+    font-weight: 300;
 }
 
 .faq.open p{
     display: block;
 }
-
-.faq.open pbtn{
-    display: block;
+.faq.open .btn{
+    color: #00848f;
 }
+
 
 
 /* Footer */
