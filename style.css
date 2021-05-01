@@ -43,6 +43,7 @@ h2{
     top: 35px;
     font-weight: 400;
     font-size: 1.4em;
+    cursor: pointer;
 }
 
 /* Hide p tags */

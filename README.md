@@ -25,7 +25,16 @@
 * Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
 
+## Javascript Logic
+*[Event bubbling](https://javascript.info/bubbling-and-capturing) and event capturing was used to capture user clicks whenever the user clicks on the button. Which also allows us to manupulate the parent [parent element](https://www.w3schools.com/jsref/prop_node_parentelement.asp).*
+
+* `hideTag()` hides all the elements and change to button to `+` icon.
+* `forEach` Loop was used to create event bubbling.
+* `addEventListener` will be triggered when a faq element is clicked.
+* Finally, if statement was used to trigger change whenever the button is clicked.
+
 ### Credit: 
+* Created By [InstinctHub](https://instincthub.com/)
 * UI Design By [Bubu Dragos](https://dribbble.com/shots/14910012-Daily-UI-FAQ)
 * HTML Entity By [Toptal](https://www.toptal.com/designers/htmlarrows/)
 * Dummy Text By [Lorem Ipsum](https://www.lipsum.com)
