@@ -1,6 +1,9 @@
-# FAQ Custom Page
+# Frequently Asked Custom Page
 
-*Creating a simple modern FAQ page with HTML, CSS and JavaScript.*
+*Creating a simple modern FAQ page with HTML, CSS and JavaScript. What makes the page unique is its dynamic logic with Javascript, you don't need to include additional IDs or classes to the HTML tags when adding more FAQ lists.*
+
+*To generate more FAQs, all you need to do is duplicate the `<div class="faq">...</div>` tag; replace the `h2` and `p` tags with your new contents and you're done!*
+
 
 ## HTML
 * Used the `main` tag to rap the FAQ container
@@ -26,14 +29,15 @@
 
 
 ## Javascript Logic
-*[Event bubbling](https://javascript.info/bubbling-and-capturing) and event capturing was used to capture user clicks whenever the user clicks on the button. Which also allows us to manupulate the parent [parent element](https://www.w3schools.com/jsref/prop_node_parentelement.asp).*
+*[Event bubbling](https://javascript.info/bubbling-and-capturing) and event capturing was used to capture clicks whenever the user clicks on the button. Which also allows us to manipulate the [parent element](https://www.w3schools.com/jsref/prop_node_parentelement.asp).*
 
-* `hideTag()` hides all the elements and change to button to `+` icon.
+* `hideTag()` function hides all the elements and change the buttons to `+` icon.
 * `forEach` Loop was used to create event bubbling.
 * `addEventListener` will be triggered when a faq element is clicked.
 * Finally, if statement was used to trigger change whenever the button is clicked.
 
-### Credit: 
+
+## Credit: 
 * Created By [InstinctHub](https://instincthub.com/)
 * UI Design By [Bubu Dragos](https://dribbble.com/shots/14910012-Daily-UI-FAQ)
 * HTML Entity By [Toptal](https://www.toptal.com/designers/htmlarrows/)
